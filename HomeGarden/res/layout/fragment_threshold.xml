@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    <!-- android:descendantFocusability="blocksDescendants" -->
+    
+    <TextView
+        android:id="@+id/txtActuatorName"
+        android:layout_width="0dp"
+                android:layout_height="wrap_content"
+        android:layout_weight=".35"
+        
+        android:text="Actuator Name"
+        
+        android:background="#263238"
+        android:textColor="#64DD17"
+        />
+    <TextView
+        android:id="@+id/txtSensorName"
+        android:layout_width="0dp"
+                android:layout_height="wrap_content"
+        android:layout_weight=".35"
+        android:text="Sensor Name"
+        
+        android:background="#263238"
+        android:textColor="#64DD17"
+        />
+    
+    <TextView
+        android:id="@+id/txtMin"
+        android:layout_width="0dp"
+                android:layout_height="wrap_content"
+        android:layout_weight=".15"
+        
+        android:text="0"
+        
+        android:background="#263238"
+        android:textColor="#64DD17"
+        />
+    <TextView
+        android:id="@+id/txtMax"
+        android:layout_width="0dp"
+                android:layout_height="wrap_content"
+        android:layout_weight=".15"
+        
+        android:text="0"
+        
+        android:background="#263238"
+        android:textColor="#64DD17"
+        />
+
+</LinearLayout>

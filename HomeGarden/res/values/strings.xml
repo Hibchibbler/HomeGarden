@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HomeGarden</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_charts">Charts</string>
+    <string name="action_numerics">Numerics</string>
+    <string name="action_thresholds">Thresholds</string>
+    <string name="action_overrides">Overrides</string>
+
+</resources>

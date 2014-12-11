@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="usa.or.pdx.homegarden.ActivityMain" >
+
+    <item
+        android:id="@+id/action_charts"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_charts"
+        />
+    <item
+        android:id="@+id/action_numerics"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_numerics"/>
+    <item
+        android:id="@+id/action_thresholds"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_thresholds"/>
+    
+    <item
+        android:id="@+id/action_overrides"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_overrides"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+
+</menu>
