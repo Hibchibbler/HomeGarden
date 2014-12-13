@@ -1,3 +1,4 @@
 HomeGarden/bin
 android-support-v7-appcompat/bin
-HomeGarden/gen/android/support/v7/appcompat/R.java
+HomeGarden/gen
+android-support-v7-appcompat/gen
